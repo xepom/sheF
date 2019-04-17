@@ -1,0 +1,99 @@
+<?php
+    require "includes/config.php"
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><?php echo $config['title']; ?></title>
+<link rel="stylesheet" href="stiles.css">
+</head>
+<body class="all">
+      <img id="user_p" src="img/balloon-2331488_960_720.jpg" alt="#">
+      <div class="info">
+      <h5 id="user_in"> пользователь: admin</h5>
+      </div>
+    <header>
+        <h1 id="title"><a href="index.phtml"><?php echo $config['title']; ?></a></h1>
+        <input id="button" type="button" name="press" value="Войти" />
+    </header>
+<nav>
+    <ul class="menu">
+        <li > <a href="#"> Услуги</a>
+            <ul class="submenu">
+                <li> <a href="#">-</a></li>
+                <li> <a href="#">-</a></li>
+                <li> <a href="#">-</a></li>
+            </ul>
+        </li>
+         <li>  <a href="#">Комплектующие</a>
+            <ul class="submenu">
+                <li> <a href="#">-</a></li>
+                <li> <a href="#">-</a></li>
+                <li> <a href="#">-</a></li>
+            </ul>
+        </li>
+         <li >  <a href="#"> Заказы</a>
+            <ul class="submenu">
+                <li> <a href="#">-</a></li>
+                <li> <a href="#">-</a></li>
+                <li> <a href="#">-</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div id="content">
+    <div class="containet">
+        <section class="first_step">
+            <div class="article_horizontal">
+                <article class="article">
+                        <div class="article__image" style="background-image: url(img/balloon-2331488_960_720.jpg);"></div>
+                        <div class="article__info">
+                          <a href="#">Название услуги</a>
+                          <div class="article__info__preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ...</div>
+                        </div>
+                  </article>
+            </div>
+        </section>
+
+        <section class="first_step">
+            <div class="article_horizontal">
+                <article class="article">
+                        <div class="article__image" style="background-image: url(img/balloon-2331488_960_720.jpg);"></div>
+                        <div class="article__info">
+                          <a href="#">Название услуги</a>
+                          <div class="article__info__preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ...</div>
+                        </div>
+                  </article>
+            </div>
+        </section>
+
+        <section class="first_step">
+            <div class="article_horizontal">
+                <article class="article">
+                        <div class="article__image" style="background-image: url(img/balloon-2331488_960_720.jpg);"></div>
+                        <div class="article__info">
+                          <a href="#">Название услуги</a>
+                          <div class="article__info__preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ...</div>
+                        </div>
+                  </article>
+            </div>
+        </section>
+
+        <section class="first_step">
+            <div class="article_horizontal">
+                <article class="article">
+                        <div class="article__image" style="background-image: url(img/balloon-2331488_960_720.jpg);"></div>
+                        <div class="article__info">
+                          <a href="#">Название услуги</a>
+                          <div class="article__info__preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ...</div>
+                        </div>
+                  </article>
+            </div>
+        </section>
+
+    </div>
+
+</div>
+</body>
+</html>
